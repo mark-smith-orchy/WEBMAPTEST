@@ -1,0 +1,2205 @@
+{
+    "version": 8,
+    "name": "V1 - The Map (Marked DEMO page)",
+    "metadata": {
+        "mapbox:print": {
+            "width": 16,
+            "height": 12,
+            "units": "in",
+            "format": "png",
+            "resolution": 500
+        },
+        "mapbox:type": "default",
+        "mapbox:variation": "monochrome-light-v1",
+        "mapbox:trackposition": false,
+        "mapbox:uiParadigm": "layers",
+        "mapbox:decompiler": {
+            "id": "clx1lkf7r001z01qs8wlta43y",
+            "strata": [
+                {
+                    "id": "clx1lkf7r001z01qs8wlta43y",
+                    "order": [
+                        ["point-of-interest-labels", "poi-labels"],
+                        "land",
+                        "national-park",
+                        "landuse",
+                        "waterway",
+                        "water",
+                        "land-structure-polygon",
+                        "land-structure-line",
+                        "building",
+                        "tunnel-path-trail",
+                        "tunnel-path-cycleway-piste",
+                        "tunnel-path",
+                        "tunnel-pedestrian",
+                        "tunnel-simple",
+                        "road-path-trail",
+                        "road-path-cycleway-piste",
+                        "road-path",
+                        "road-steps",
+                        "road-pedestrian",
+                        "road-simple",
+                        "road-rail",
+                        "road-rail-tracks",
+                        "bridge-path-trail",
+                        "bridge-path-cycleway-piste",
+                        "bridge-path",
+                        "bridge-steps",
+                        "bridge-pedestrian",
+                        "bridge-case-simple",
+                        "bridge-simple",
+                        "bridge-rail",
+                        "bridge-rail-tracks",
+                        "Metro - Network x3",
+                        "Metro Dash - Network x3",
+                        "Metro - Stops x3",
+                        "Metro - Stops x3 - Text",
+                        "Metro - End of Line Numbers x3",
+                        "Metro - End of Line Numbers x3 - Text",
+                        "GeoG - Network x3",
+                        "GeoG Dash - Network x3",
+                        "GeoG - Stops x3",
+                        "GeoG - Stops x3 - Text",
+                        "GeoG - End of Line Numbers x3 ",
+                        "GeoG - End of Line Numbers x3  - Text"
+                    ]
+                }
+            ],
+            "components": {"point-of-interest-labels": "18.0.0"},
+            "propConfig": {"point-of-interest-labels": {}}
+        },
+        "mapbox:thumb": "data:image/webp;base64,UklGRqIEAABXRUJQVlA4WAoAAAAgAAAAOwAAOwAASUNDUMgBAAAAAAHIAAAAAAQwAABtbnRyUkdCIFhZWiAH4AABAAEAAAAAAABhY3NwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAA9tYAAQAAAADTLQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlkZXNjAAAA8AAAACRyWFlaAAABFAAAABRnWFlaAAABKAAAABRiWFlaAAABPAAAABR3dHB0AAABUAAAABRyVFJDAAABZAAAAChnVFJDAAABZAAAAChiVFJDAAABZAAAAChjcHJ0AAABjAAAADxtbHVjAAAAAAAAAAEAAAAMZW5VUwAAAAgAAAAcAHMAUgBHAEJYWVogAAAAAAAAb6IAADj1AAADkFhZWiAAAAAAAABimQAAt4UAABjaWFlaIAAAAAAAACSgAAAPhAAAts9YWVogAAAAAAAA9tYAAQAAAADTLXBhcmEAAAAAAAQAAAACZmYAAPKnAAANWQAAE9AAAApbAAAAAAAAAABtbHVjAAAAAAAAAAEAAAAMZW5VUwAAACAAAAAcAEcAbwBvAGcAbABlACAASQBuAGMALgAgADIAMAAxADZWUDhMtAIAAC87wA4AV8OgbSNJjo4/vWPzz4AgyLZZ7891LoZt20Zi0nb/bXv/ef4FJMmAwh3nd5UKlUcUKoRKAVBAAUEloTKnHzEaqFikhVIZQ4XKgxACFEEFoGiEwRUqRAoUl8fR8mtHF4YdQOXvlv5BsekA2batHXvzBj+afjF+xfri1I1t1VaMef83ULdvT3sQ0X8FbtsoHR4zvAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAICz10cbW8fXV//Ce798b/Tu7szr5/8AV4fj6WB35eGZM1+Or+PK6fzoQHehY/94om/uxdrB249R/dm0r9Te3DD17NWrUkd55lNUbIz2FVobk97z7514/enlZycRa5voL7U01JWuftGRD59fnMfCUtrZ3lCXWfhVTzavrpciyfH0QKEpyYWDX3Xly7OnU8dx8GG6p6OxLlM19su+vFkYfRHJ7FTa6nO1oWrx48uFnxt6ku7HSkhbk2x1bQihKoTn3ztyfTWdrkQreD/JhhBCCCF8H+bFy7VSuhqv4se52p/QhE9GKuneV0SLytf+bD7j/E7P2Mt4KCSZUPVDRPl7Nz4/WJiOUtH3aaWnoS6T+cEWvvekvD26GCv2xvb3s5DJZjKhJnPGVvHRxPt44YO+QkvD7Xw+m8nf2vey0je6HvEAP037Sm1NjUmSJA1DU6W+kdnLiLicHR2oFDpaW1ta2wvlgZHZb2Vi8vpEOthVrpTLXYPp5MZl7Jvy3dL0aDqcpqNTi7+rLdYd8GLv4ODg5fF/KL9G",
+        "mapbox:autocomposite": true,
+        "mapbox:sdk-support": {
+            "js": "3.3.0",
+            "android": "11.2.0",
+            "ios": "11.2.0"
+        },
+        "mapbox:origin": "monochrome-dark-v1",
+        "mapbox:groups": {
+            "Transit, transit-labels": {
+                "name": "Transit, transit-labels",
+                "collapsed": false
+            },
+            "Land & water, built": {
+                "name": "Land & water, built",
+                "collapsed": true
+            },
+            "Transit, bridges": {"name": "Transit, bridges", "collapsed": true},
+            "Transit, surface": {"name": "Transit, surface", "collapsed": true},
+            "Land & water, land": {
+                "name": "Land & water, land",
+                "collapsed": false
+            },
+            "Road network, bridges": {
+                "name": "Road network, bridges",
+                "collapsed": true
+            },
+            "b0c02d784cc24118a180d93e16a8636f": {
+                "name": "Safe Map (Data & Styling)",
+                "collapsed": true
+            },
+            "Road network, tunnels": {
+                "name": "Road network, tunnels",
+                "collapsed": true
+            },
+            "54858fed58774ace9d7f63b5cbf9042a": {
+                "name": "Base Map Styling",
+                "collapsed": true
+            },
+            "Road network, road-labels": {
+                "name": "Road network, road-labels",
+                "collapsed": true
+            },
+            "Buildings, built": {"name": "Buildings, built", "collapsed": true},
+            "Natural features, natural-labels": {
+                "name": "Natural features, natural-labels",
+                "collapsed": true
+            },
+            "Road network, surface": {
+                "name": "Road network, surface",
+                "collapsed": true
+            },
+            "Walking, cycling, etc., barriers-bridges": {
+                "name": "Walking, cycling, etc., barriers-bridges",
+                "collapsed": true
+            },
+            "Place labels, place-labels": {
+                "name": "Place labels, place-labels",
+                "collapsed": false
+            },
+            "Point of interest labels, poi-labels": {
+                "name": "Point of interest labels, poi-labels",
+                "collapsed": true
+            },
+            "Walking, cycling, etc., tunnels": {
+                "name": "Walking, cycling, etc., tunnels",
+                "collapsed": true
+            },
+            "Walking, cycling, etc., surface": {
+                "name": "Walking, cycling, etc., surface",
+                "collapsed": true
+            },
+            "Transit, built": {"name": "Transit, built", "collapsed": true},
+            "Land & water, water": {
+                "name": "Land & water, water",
+                "collapsed": true
+            }
+        }
+    },
+    "center": [0, 2.842170943040401e-14],
+    "zoom": 0.5573983540993793,
+    "bearing": 0,
+    "pitch": 0,
+    "fog": {
+        "range": [-1, 10],
+        "color": "hsl(0, 0%, 100%)",
+        "high-color": "hsl(0, 0%, 100%)",
+        "space-color": "hsl(0, 0%, 100%)",
+        "horizon-blend": 0.1,
+        "star-intensity": 0
+    },
+    "sources": {
+        "composite": {
+            "url": "mapbox://mapbox.mapbox-streets-v8,marksmith-orchy.12s2u6iv,marksmith-orchy.48inmeoc,marksmith-orchy.3vvq0ssj,marksmith-orchy.cw6dt41o,marksmith-orchy.ben6z2ac,marksmith-orchy.4abc5wt8",
+            "type": "vector"
+        }
+    },
+    "sprite": "mapbox://sprites/marksmith-orchy/clx1lkf7r001z01qs8wlta43y/atwzoqlr1c6o0sfczgrremdxy",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "projection": {"name": "globe"},
+    "layers": [
+        {
+            "id": "poi-label",
+            "type": "symbol",
+            "metadata": {
+                "mapbox:featureComponent": "point-of-interest-labels",
+                "mapbox:group": "Point of interest labels, poi-labels"
+            },
+            "source": "composite",
+            "source-layer": "poi_label",
+            "minzoom": 6,
+            "filter": [
+                "all",
+                [
+                    "<=",
+                    ["get", "filterrank"],
+                    ["+", ["step", ["zoom"], 0, 16, 1, 17, 2], 3]
+                ],
+                [
+                    "step",
+                    ["pitch"],
+                    true,
+                    50,
+                    ["<", ["distance-from-center"], 2],
+                    60,
+                    ["<", ["distance-from-center"], 2.5],
+                    70,
+                    ["<", ["distance-from-center"], 3]
+                ]
+            ],
+            "layout": {
+                "text-size": [
+                    "step",
+                    ["zoom"],
+                    ["step", ["get", "sizerank"], 18, 5, 12],
+                    17,
+                    ["step", ["get", "sizerank"], 18, 13, 12]
+                ],
+                "icon-image": [
+                    "case",
+                    ["has", "maki_beta"],
+                    [
+                        "coalesce",
+                        ["image", ["get", "maki_beta"]],
+                        ["image", ["get", "maki"]]
+                    ],
+                    ["image", ["get", "maki"]]
+                ],
+                "text-font": ["DIN Pro Medium", "Arial Unicode MS Regular"],
+                "text-offset": [
+                    "step",
+                    ["zoom"],
+                    [
+                        "step",
+                        ["get", "sizerank"],
+                        ["literal", [0, 0]],
+                        5,
+                        ["literal", [0, 0.75]]
+                    ],
+                    17,
+                    [
+                        "step",
+                        ["get", "sizerank"],
+                        ["literal", [0, 0]],
+                        13,
+                        ["literal", [0, 0.75]]
+                    ]
+                ],
+                "text-anchor": [
+                    "step",
+                    ["zoom"],
+                    ["step", ["get", "sizerank"], "center", 5, "top"],
+                    17,
+                    ["step", ["get", "sizerank"], "center", 13, "top"]
+                ],
+                "text-field": ["coalesce", ["get", "name_en"], ["get", "name"]]
+            },
+            "paint": {
+                "icon-opacity": [
+                    "step",
+                    ["zoom"],
+                    ["step", ["get", "sizerank"], 0, 5, 1],
+                    17,
+                    ["step", ["get", "sizerank"], 0, 13, 1]
+                ],
+                "text-halo-color": "rgb(0, 0, 0)",
+                "text-halo-width": 0.5,
+                "text-halo-blur": 0.5,
+                "text-color": "rgb(153, 153, 153)"
+            }
+        },
+        {
+            "id": "land",
+            "type": "background",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "layout": {},
+            "paint": {
+                "background-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    9,
+                    "#ffffff",
+                    11,
+                    "#ffffff"
+                ]
+            }
+        },
+        {
+            "id": "national-park",
+            "type": "fill",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "landuse_overlay",
+            "minzoom": 5,
+            "filter": ["==", ["get", "class"], "national_park"],
+            "layout": {},
+            "paint": {
+                "fill-color": "rgb(242, 242, 242)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    5,
+                    0,
+                    6,
+                    0.6,
+                    12,
+                    0.2
+                ]
+            }
+        },
+        {
+            "id": "landuse",
+            "type": "fill",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "landuse",
+            "minzoom": 5,
+            "filter": [
+                "all",
+                [">=", ["to-number", ["get", "sizerank"]], 0],
+                [
+                    "match",
+                    ["get", "class"],
+                    [
+                        "agriculture",
+                        "wood",
+                        "grass",
+                        "scrub",
+                        "glacier",
+                        "pitch",
+                        "sand"
+                    ],
+                    ["step", ["zoom"], false, 11, true],
+                    "residential",
+                    ["step", ["zoom"], true, 10, false],
+                    ["park", "airport"],
+                    [
+                        "step",
+                        ["zoom"],
+                        false,
+                        8,
+                        ["case", ["==", ["get", "sizerank"], 1], true, false],
+                        10,
+                        true
+                    ],
+                    false
+                ],
+                [
+                    "<=",
+                    [
+                        "-",
+                        ["to-number", ["get", "sizerank"]],
+                        [
+                            "interpolate",
+                            ["exponential", 1.5],
+                            ["zoom"],
+                            12,
+                            0,
+                            18,
+                            14
+                        ]
+                    ],
+                    8
+                ]
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": "#d5f0d7",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    ["match", ["get", "class"], "residential", 0.8, 0.2],
+                    10,
+                    ["match", ["get", "class"], "residential", 0, 1]
+                ],
+                "fill-antialias": false
+            }
+        },
+        {
+            "id": "waterway",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "waterway",
+            "minzoom": 8,
+            "layout": {
+                "line-cap": ["step", ["zoom"], "butt", 11, "round"],
+                "line-join": ["step", ["zoom"], "miter", 11, "round"]
+            },
+            "paint": {
+                "line-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    "#c6d6f6",
+                    22,
+                    "#c6d6f6"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.3],
+                    ["zoom"],
+                    9,
+                    ["match", ["get", "class"], ["canal", "river"], 0.1, 0],
+                    20,
+                    ["match", ["get", "class"], ["canal", "river"], 8, 3]
+                ],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    8,
+                    0,
+                    8.5,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "water",
+            "type": "fill",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "water",
+            "layout": {},
+            "paint": {"fill-color": "#c6d6f6"}
+        },
+        {
+            "id": "land-structure-polygon",
+            "type": "fill",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "structure",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "land"],
+                ["==", ["geometry-type"], "Polygon"]
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    9,
+                    "#ffffff",
+                    11,
+                    "rgb(252, 252, 252)"
+                ]
+            }
+        },
+        {
+            "id": "land-structure-line",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "structure",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "land"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": "square"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.99],
+                    ["zoom"],
+                    14,
+                    0.75,
+                    20,
+                    40
+                ],
+                "line-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    9,
+                    "#ffffff",
+                    11,
+                    "rgb(252, 252, 252)"
+                ]
+            }
+        },
+        {
+            "id": "building",
+            "type": "fill",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "building",
+            "minzoom": 15,
+            "filter": [
+                "all",
+                ["!=", ["get", "type"], "building:part"],
+                ["==", ["get", "underground"], "false"]
+            ],
+            "layout": {},
+            "paint": {
+                "fill-color": "rgb(237, 237, 237)",
+                "fill-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    15,
+                    0,
+                    16,
+                    1
+                ],
+                "fill-outline-color": "rgba(204, 204, 204, 0.8)"
+            }
+        },
+        {
+            "id": "tunnel-path-trail",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "tunnel"],
+                ["==", ["get", "class"], "path"],
+                [
+                    "match",
+                    ["get", "type"],
+                    ["hiking", "mountain_bike", "trail"],
+                    true,
+                    false
+                ],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": "round"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "tunnel-path-cycleway-piste",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "tunnel"],
+                ["==", ["get", "class"], "path"],
+                ["match", ["get", "type"], ["cycleway", "piste"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "tunnel-path",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "tunnel"],
+                ["==", ["get", "class"], "path"],
+                ["!=", ["get", "type"], "steps"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": "round"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "tunnel-pedestrian",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "tunnel"],
+                ["==", ["get", "class"], "pedestrian"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    0.5,
+                    18,
+                    12
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "tunnel-simple",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "tunnel"],
+                [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "street",
+                            "street_limited",
+                            "primary_link",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ],
+                    14,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "primary_link",
+                            "secondary",
+                            "secondary_link",
+                            "tertiary",
+                            "tertiary_link",
+                            "street",
+                            "street_limited",
+                            "service",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ]
+                ],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    13,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        2.4,
+                        ["secondary", "tertiary"],
+                        1.5,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        0.6,
+                        0.5
+                    ],
+                    18,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        19.2,
+                        ["secondary", "tertiary"],
+                        15.6,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        10.799999999999999,
+                        7.199999999999999
+                    ],
+                    22,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        192,
+                        ["secondary", "tertiary"],
+                        156,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "primary_link",
+                            "street",
+                            "street_limited"
+                        ],
+                        108,
+                        72
+                    ]
+                ],
+                "line-color": "#e6e6e6"
+            }
+        },
+        {
+            "id": "road-path-trail",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "path"],
+                [
+                    "match",
+                    ["get", "type"],
+                    ["hiking", "mountain_bike", "trail"],
+                    true,
+                    false
+                ],
+                ["match", ["get", "structure"], ["none", "ford"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {
+                "line-cap": "round",
+                "line-join": ["step", ["zoom"], "miter", 14, "round"]
+            },
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "road-path-cycleway-piste",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "path"],
+                ["match", ["get", "type"], ["cycleway", "piste"], true, false],
+                ["match", ["get", "structure"], ["none", "ford"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-join": ["step", ["zoom"], "miter", 14, "round"]},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "road-path",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "path"],
+                [
+                    "step",
+                    ["zoom"],
+                    [
+                        "!",
+                        [
+                            "match",
+                            ["get", "type"],
+                            ["steps", "sidewalk", "crossing"],
+                            true,
+                            false
+                        ]
+                    ],
+                    16,
+                    ["!=", ["get", "type"], "steps"]
+                ],
+                ["match", ["get", "structure"], ["none", "ford"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {
+                "line-cap": "round",
+                "line-join": ["step", ["zoom"], "miter", 14, "round"]
+            },
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    13,
+                    0.5,
+                    14,
+                    1,
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "road-steps",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "type"], "steps"],
+                ["match", ["get", "structure"], ["none", "ford"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-join": "round"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    16,
+                    1.6,
+                    18,
+                    6
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [
+                    "step",
+                    ["zoom"],
+                    ["literal", [1, 0]],
+                    15,
+                    ["literal", [1.75, 1]],
+                    16,
+                    ["literal", [1, 0.75]],
+                    17,
+                    ["literal", [0.3, 0.3]]
+                ]
+            }
+        },
+        {
+            "id": "road-pedestrian",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 15,
+            "filter": [
+                "all",
+                ["==", ["get", "class"], "pedestrian"],
+                ["match", ["get", "structure"], ["none", "ford"], true, false],
+                ["case", ["has", "layer"], [">=", ["get", "layer"], 0], true],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {
+                "line-cap": "round",
+                "line-join": ["step", ["zoom"], "miter", 14, "round"]
+            },
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    0.5,
+                    18,
+                    12
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "road-simple",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk"],
+                        true,
+                        false
+                    ],
+                    6,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        true,
+                        false
+                    ],
+                    8,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary", "secondary"],
+                        true,
+                        false
+                    ],
+                    10,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "trunk",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "motorway_link",
+                            "trunk_link"
+                        ],
+                        true,
+                        false
+                    ],
+                    11,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "street"
+                        ],
+                        true,
+                        false
+                    ],
+                    12,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        true,
+                        false
+                    ],
+                    13,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "street",
+                            "street_limited",
+                            "primary_link",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ],
+                    14,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "primary_link",
+                            "secondary",
+                            "secondary_link",
+                            "tertiary",
+                            "tertiary_link",
+                            "street",
+                            "street_limited",
+                            "service",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ]
+                ],
+                ["match", ["get", "structure"], ["none", "ford"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {
+                "line-cap": ["step", ["zoom"], "butt", 14, "round"],
+                "line-join": ["step", ["zoom"], "miter", 14, "round"]
+            },
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    5,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        0.44999999999999996,
+                        ["secondary", "tertiary"],
+                        0.06,
+                        0
+                    ],
+                    13,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        2.4,
+                        ["secondary", "tertiary"],
+                        1.5,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "primary_link",
+                            "street",
+                            "street_limited"
+                        ],
+                        0.6,
+                        0.3
+                    ],
+                    18,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        19.2,
+                        ["secondary", "tertiary"],
+                        15.6,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "primary_link",
+                            "street",
+                            "street_limited"
+                        ],
+                        10.799999999999999,
+                        6
+                    ],
+                    22,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        192,
+                        ["secondary", "tertiary"],
+                        156,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "primary_link",
+                            "street",
+                            "street_limited"
+                        ],
+                        108,
+                        60
+                    ]
+                ],
+                "line-color": "#e6e6e6"
+            }
+        },
+        {
+            "id": "road-rail",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                [
+                    "match",
+                    ["get", "class"],
+                    ["major_rail", "minor_rail"],
+                    true,
+                    false
+                ],
+                ["match", ["get", "structure"], ["none", "ford"], true, false]
+            ],
+            "paint": {
+                "line-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    13,
+                    "rgb(242, 242, 242)",
+                    17,
+                    "rgb(227, 227, 227)"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    0.5,
+                    20,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "road-rail-tracks",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                [
+                    "match",
+                    ["get", "class"],
+                    ["major_rail", "minor_rail"],
+                    true,
+                    false
+                ],
+                ["match", ["get", "structure"], ["none", "ford"], true, false]
+            ],
+            "paint": {
+                "line-color": "rgb(227, 227, 227)",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    4,
+                    20,
+                    8
+                ],
+                "line-dasharray": [0.1, 15],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    13.75,
+                    0,
+                    14,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "bridge-path-trail",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                ["==", ["get", "class"], "path"],
+                [
+                    "match",
+                    ["get", "type"],
+                    ["hiking", "mountain_bike", "trail"],
+                    true,
+                    false
+                ],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": "round"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "bridge-path-cycleway-piste",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                ["==", ["get", "class"], "path"],
+                ["match", ["get", "type"], ["cycleway", "piste"], true, false],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "bridge-path",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                ["==", ["get", "class"], "path"],
+                ["!=", ["get", "type"], "steps"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": "round"},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    18,
+                    4
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "bridge-steps",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "type"], "steps"],
+                ["==", ["get", "structure"], "bridge"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    15,
+                    1,
+                    16,
+                    1.6,
+                    18,
+                    6
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [
+                    "step",
+                    ["zoom"],
+                    ["literal", [1, 0]],
+                    15,
+                    ["literal", [1.75, 1]],
+                    16,
+                    ["literal", [1, 0.75]],
+                    17,
+                    ["literal", [0.3, 0.3]]
+                ]
+            }
+        },
+        {
+            "id": "bridge-pedestrian",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                ["==", ["get", "class"], "pedestrian"],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    0.5,
+                    18,
+                    12
+                ],
+                "line-color": "#e6e6e6",
+                "line-dasharray": [10, 0]
+            }
+        },
+        {
+            "id": "bridge-case-simple",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "street",
+                            "street_limited",
+                            "primary_link",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ],
+                    14,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "primary_link",
+                            "secondary",
+                            "secondary_link",
+                            "tertiary",
+                            "tertiary_link",
+                            "street",
+                            "street_limited",
+                            "service",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ]
+                ],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    13,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        3.5999999999999996,
+                        ["secondary", "tertiary"],
+                        2.4,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        1.5,
+                        0.75
+                    ],
+                    18,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        21.599999999999998,
+                        ["secondary", "tertiary"],
+                        18,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        13.2,
+                        9.6
+                    ],
+                    22,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        216,
+                        ["secondary", "tertiary"],
+                        180,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "primary_link",
+                            "street",
+                            "street_limited"
+                        ],
+                        132,
+                        96
+                    ]
+                ],
+                "line-color": "#e6e6e6"
+            }
+        },
+        {
+            "id": "bridge-simple",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                [
+                    "step",
+                    ["zoom"],
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk"],
+                        true,
+                        false
+                    ],
+                    13,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "secondary",
+                            "tertiary",
+                            "street",
+                            "street_limited",
+                            "primary_link",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ],
+                    14,
+                    [
+                        "match",
+                        ["get", "class"],
+                        [
+                            "motorway",
+                            "motorway_link",
+                            "trunk",
+                            "trunk_link",
+                            "primary",
+                            "primary_link",
+                            "secondary",
+                            "secondary_link",
+                            "tertiary",
+                            "tertiary_link",
+                            "street",
+                            "street_limited",
+                            "service",
+                            "track"
+                        ],
+                        true,
+                        false
+                    ]
+                ],
+                ["==", ["geometry-type"], "LineString"]
+            ],
+            "layout": {"line-cap": ["step", ["zoom"], "butt", 14, "round"]},
+            "paint": {
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    13,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        2.4,
+                        ["secondary", "tertiary"],
+                        1.5,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        0.6,
+                        0.5
+                    ],
+                    18,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        19.2,
+                        ["secondary", "tertiary"],
+                        15.6,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "street",
+                            "street_limited",
+                            "primary_link"
+                        ],
+                        10.799999999999999,
+                        7.199999999999999
+                    ],
+                    22,
+                    [
+                        "match",
+                        ["get", "class"],
+                        ["motorway", "trunk", "primary"],
+                        192,
+                        ["secondary", "tertiary"],
+                        156,
+                        [
+                            "motorway_link",
+                            "trunk_link",
+                            "primary_link",
+                            "street",
+                            "street_limited"
+                        ],
+                        108,
+                        72
+                    ]
+                ],
+                "line-color": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    "#e6e6e6",
+                    22,
+                    "#e6e6e6"
+                ]
+            }
+        },
+        {
+            "id": "bridge-rail",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                [
+                    "match",
+                    ["get", "class"],
+                    ["major_rail", "minor_rail"],
+                    true,
+                    false
+                ]
+            ],
+            "layout": {},
+            "paint": {
+                "line-color": "#e6e6e6",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    0.5,
+                    20,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "bridge-rail-tracks",
+            "type": "line",
+            "metadata": {"mapbox:group": "54858fed58774ace9d7f63b5cbf9042a"},
+            "source": "composite",
+            "source-layer": "road",
+            "minzoom": 13,
+            "filter": [
+                "all",
+                ["==", ["get", "structure"], "bridge"],
+                [
+                    "match",
+                    ["get", "class"],
+                    ["major_rail", "minor_rail"],
+                    true,
+                    false
+                ]
+            ],
+            "layout": {},
+            "paint": {
+                "line-color": "#e6e6e6",
+                "line-width": [
+                    "interpolate",
+                    ["exponential", 1.5],
+                    ["zoom"],
+                    14,
+                    4,
+                    20,
+                    8
+                ],
+                "line-dasharray": [0.1, 15],
+                "line-opacity": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    13.75,
+                    0,
+                    14,
+                    1
+                ]
+            }
+        },
+        {
+            "id": "Metro - Network x3",
+            "type": "line",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Metro_-_Network_x3-674mfm",
+            "maxzoom": 13,
+            "layout": {"line-join": "round", "line-cap": "round"},
+            "paint": {
+                "line-color": [
+                    "match",
+                    ["get", "Route"],
+                    ["", "1"],
+                    "#ff4297",
+                    ["2"],
+                    "#3cbe3c",
+                    ["3"],
+                    "#33bbff",
+                    ["4"],
+                    "#aed92b",
+                    ["5"],
+                    "#ffd700",
+                    ["6"],
+                    "#ff9702",
+                    ["7"],
+                    "#4504ff",
+                    ["8"],
+                    "#ff9276",
+                    ["9"],
+                    "#ff4414",
+                    ["10"],
+                    "#7d4d00",
+                    ["11"],
+                    "#ee20a6",
+                    "#8e1515"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    12,
+                    2,
+                    14,
+                    4,
+                    18,
+                    8
+                ],
+                "line-offset": [
+                    "match",
+                    ["get", "Shared"],
+                    ["1"],
+                    1,
+                    ["2"],
+                    -1,
+                    0
+                ],
+                "line-opacity": ["match", ["get", "Saftey"], ["1"], 0, 1]
+            }
+        },
+        {
+            "id": "Metro Dash - Network x3",
+            "type": "line",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Metro_-_Network_x3-674mfm",
+            "maxzoom": 13,
+            "layout": {"line-join": "round", "line-cap": "round"},
+            "paint": {
+                "line-color": [
+                    "match",
+                    ["get", "Route"],
+                    ["", "1"],
+                    "#ff4297",
+                    ["2"],
+                    "#3cbe3c",
+                    ["3"],
+                    "#33bbff",
+                    ["4"],
+                    "#aed92b",
+                    ["5"],
+                    "#ffd700",
+                    ["6"],
+                    "#ff9702",
+                    ["7"],
+                    "#4504ff",
+                    ["8"],
+                    "#ff9276",
+                    ["9"],
+                    "#ff4414",
+                    ["10"],
+                    "#7d4d00",
+                    ["11"],
+                    "#ee20a6",
+                    "#8e1515"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    12,
+                    2,
+                    14,
+                    4,
+                    18,
+                    8
+                ],
+                "line-offset": [
+                    "match",
+                    ["get", "Shared"],
+                    ["1"],
+                    1,
+                    ["2"],
+                    -1,
+                    0
+                ],
+                "line-dasharray": [1, 2],
+                "line-opacity": ["match", ["get", "Saftey"], ["2"], 0, 1]
+            }
+        },
+        {
+            "id": "Metro - Stops x3",
+            "type": "circle",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Metro_-_Stops_x3-dx2nla",
+            "maxzoom": 13,
+            "paint": {
+                "circle-radius": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    12,
+                    2,
+                    14,
+                    4,
+                    18,
+                    8
+                ],
+                "circle-stroke-color": "#ffffff",
+                "circle-stroke-width": 1
+            }
+        },
+        {
+            "id": "Metro - Stops x3 - Text",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Metro_-_Stops_x3-dx2nla",
+            "minzoom": 12.8,
+            "maxzoom": 13,
+            "layout": {
+                "text-transform": "uppercase",
+                "text-size": 10,
+                "text-anchor": "bottom",
+                "text-field": ["to-string", ["get", "Name"]],
+                "text-offset": [0, -0.25]
+            },
+            "paint": {"text-halo-color": "#ffffff", "text-halo-width": 1}
+        },
+        {
+            "id": "Metro - End of Line Numbers x3",
+            "type": "circle",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Metro_-_End_of_Line_Numbers_x-059x2r",
+            "maxzoom": 13,
+            "paint": {
+                "circle-radius": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    2,
+                    10,
+                    6,
+                    22,
+                    10
+                ],
+                "circle-stroke-color": "#ffffff",
+                "circle-stroke-width": 2,
+                "circle-color": [
+                    "match",
+                    ["get", "Line"],
+                    ["1"],
+                    "#ff4297",
+                    ["2"],
+                    "#3cbe3c",
+                    ["3"],
+                    "#33bbff",
+                    ["4"],
+                    "#aed92b",
+                    ["5"],
+                    "#ffd700",
+                    ["6"],
+                    "#ff9702",
+                    ["7"],
+                    "#4504ff",
+                    ["8"],
+                    "#ff9276",
+                    ["9"],
+                    "#ff4414",
+                    ["10"],
+                    "#7d4d00",
+                    ["11"],
+                    "#ee20a6",
+                    "#000000"
+                ]
+            }
+        },
+        {
+            "id": "Metro - End of Line Numbers x3 - Text",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Metro_-_End_of_Line_Numbers_x-059x2r",
+            "maxzoom": 13,
+            "layout": {
+                "text-transform": "uppercase",
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    6,
+                    10,
+                    8,
+                    22,
+                    12
+                ],
+                "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+                "text-field": ["to-string", ["get", "Line"]]
+            },
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": 1,
+                "text-color": "#ffffff"
+            }
+        },
+        {
+            "id": "GeoG - Network x3",
+            "type": "line",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "GeoG_-_Network_x3-5s50em",
+            "minzoom": 13,
+            "layout": {"line-join": "round", "line-cap": "round"},
+            "paint": {
+                "line-color": [
+                    "case",
+                    ["match", ["get", "Route"], [0, 1], true, false],
+                    "#ff4297",
+                    ["match", ["get", "Route"], [0, 2], true, false],
+                    "#3cbe3c",
+                    ["match", ["get", "Route"], [0, 3], true, false],
+                    "#33bbff",
+                    ["match", ["get", "Route"], [0, 4], true, false],
+                    "#aed92b",
+                    ["match", ["get", "Route"], [0, 5], true, false],
+                    "#ffd700",
+                    ["match", ["get", "Route"], [0, 6], true, false],
+                    "#ff9702",
+                    ["match", ["get", "Route"], [0, 7], true, false],
+                    "#4504ff",
+                    ["match", ["get", "Route"], [8], true, false],
+                    "#ff9276",
+                    ["match", ["get", "Route"], [0, 9], true, false],
+                    "#ff4414",
+                    ["match", ["get", "Route"], [0, 10], true, false],
+                    "#7d4d00",
+                    ["match", ["get", "Route"], [0, 11], true, false],
+                    "#ee20a6",
+                    "#8e1515"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    12,
+                    2,
+                    14,
+                    4,
+                    18,
+                    8
+                ],
+                "line-offset": ["match", ["get", "Shared"], [1], 2, [2], -2, 0],
+                "line-opacity": ["match", ["get", "Saftey"], [1], 0, 1]
+            }
+        },
+        {
+            "id": "GeoG Dash - Network x3",
+            "type": "line",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "GeoG_-_Network_x3-5s50em",
+            "minzoom": 13,
+            "layout": {"line-join": "round", "line-cap": "round"},
+            "paint": {
+                "line-color": [
+                    "case",
+                    ["match", ["get", "Route"], [0, 1], true, false],
+                    "#ff4297",
+                    ["match", ["get", "Route"], [0, 2], true, false],
+                    "#3cbe3c",
+                    ["match", ["get", "Route"], [0, 3], true, false],
+                    "#33bbff",
+                    ["match", ["get", "Route"], [0, 4], true, false],
+                    "#aed92b",
+                    ["match", ["get", "Route"], [0, 5], true, false],
+                    "#ffd700",
+                    ["match", ["get", "Route"], [0, 6], true, false],
+                    "#ff9702",
+                    ["match", ["get", "Route"], [0, 7], true, false],
+                    "#4504ff",
+                    ["match", ["get", "Route"], [8], true, false],
+                    "#ff9276",
+                    ["match", ["get", "Route"], [0, 9], true, false],
+                    "#ff4414",
+                    ["match", ["get", "Route"], [0, 10], true, false],
+                    "#7d4d00",
+                    ["match", ["get", "Route"], [0, 11], true, false],
+                    "#ee20a6",
+                    "#8e1515"
+                ],
+                "line-width": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    12,
+                    2,
+                    14,
+                    4,
+                    18,
+                    8
+                ],
+                "line-offset": ["match", ["get", "Shared"], [1], 2, [2], -2, 0],
+                "line-dasharray": [2, 2]
+            }
+        },
+        {
+            "id": "GeoG - Stops x3",
+            "type": "circle",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "GeoG_-_Stops_x3-9ah3qs",
+            "minzoom": 13,
+            "paint": {
+                "circle-radius": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    1,
+                    12,
+                    2,
+                    14,
+                    4,
+                    18,
+                    8
+                ],
+                "circle-stroke-color": "#ffffff",
+                "circle-stroke-width": 1
+            }
+        },
+        {
+            "id": "GeoG - Stops x3 - Text",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "GeoG_-_Stops_x3-9ah3qs",
+            "minzoom": 13,
+            "layout": {
+                "text-transform": "uppercase",
+                "text-size": 10,
+                "text-anchor": "bottom",
+                "text-field": ["to-string", ["get", "Name"]],
+                "text-offset": [0, -0.25]
+            },
+            "paint": {"text-halo-color": "#ffffff", "text-halo-width": 1}
+        },
+        {
+            "id": "GeoG - End of Line Numbers x3 ",
+            "type": "circle",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Geog_-_End_of_Line_Numbers_x3-a108uh",
+            "minzoom": 13,
+            "paint": {
+                "circle-radius": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    2,
+                    10,
+                    6,
+                    22,
+                    10
+                ],
+                "circle-stroke-color": "#ffffff",
+                "circle-stroke-width": 2,
+                "circle-color": [
+                    "match",
+                    ["get", "Line"],
+                    ["1"],
+                    "#ff4297",
+                    ["2"],
+                    "#3cbe3c",
+                    ["3"],
+                    "#33bbff",
+                    ["4"],
+                    "#aed92b",
+                    ["5"],
+                    "#ffd700",
+                    ["6"],
+                    "#ff9702",
+                    ["7"],
+                    "#4504ff",
+                    ["8"],
+                    "#ff9276",
+                    ["9"],
+                    "#ff4414",
+                    ["10"],
+                    "#7d4d00",
+                    ["11"],
+                    "#ee20a6",
+                    "#000000"
+                ],
+                "circle-translate": [0, 0]
+            }
+        },
+        {
+            "id": "GeoG - End of Line Numbers x3  - Text",
+            "type": "symbol",
+            "metadata": {"mapbox:group": "b0c02d784cc24118a180d93e16a8636f"},
+            "source": "composite",
+            "source-layer": "Geog_-_End_of_Line_Numbers_x3-a108uh",
+            "minzoom": 13,
+            "layout": {
+                "text-transform": "uppercase",
+                "text-size": [
+                    "interpolate",
+                    ["linear"],
+                    ["zoom"],
+                    0,
+                    6,
+                    10,
+                    8,
+                    22,
+                    12
+                ],
+                "text-font": ["Open Sans Regular", "Arial Unicode MS Regular"],
+                "text-field": ["to-string", ["get", "Line"]]
+            },
+            "paint": {
+                "text-halo-color": "#ffffff",
+                "text-halo-width": 1,
+                "text-color": "#ffffff"
+            }
+        }
+    ],
+    "created": "2024-06-05T08:59:14.056Z",
+    "modified": "2024-10-28T11:45:49.916Z",
+    "id": "clx1lkf7r001z01qs8wlta43y",
+    "owner": "marksmith-orchy",
+    "visibility": "private",
+    "protected": false,
+    "draft": false
+}
